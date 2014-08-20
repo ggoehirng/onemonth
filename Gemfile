@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip' 
+
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
@@ -21,6 +22,7 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'aws-sdk', '~> 1.20.0'
 end
 
 
