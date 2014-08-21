@@ -12,6 +12,8 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip' 
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 gem 'masonry-rails', '~> 0.2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
